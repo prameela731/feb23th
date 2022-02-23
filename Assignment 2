@@ -1,0 +1,19 @@
+a=[]
+n=int(input("enter n"))
+for i in range(n):
+    b=int(input())
+    a.append(b)
+for i in range(n-1,-1,-1):
+    print(a[i])
+enter n
+3
+2
+1
+0
+0
+1
+2
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
